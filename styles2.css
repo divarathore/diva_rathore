@@ -13,6 +13,15 @@ ul {
     display: block;
     padding: 0px;
   }
+  .white {
+    position: sticky;
+    top: -1px;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
   a {
     text-decoration: none;
     color: black;
@@ -54,3 +63,30 @@ ul {
   .fade {
       color: rgb(166, 166, 166);
   }
+  footer {
+    display: inline-block;
+  }
+  .left {
+    float: left;
+    padding-left: 170px;
+    padding-top: 30px;
+  }
+.edu {
+  float: left;
+  font-size: 16px;
+  padding-left: 234px;
+  padding-top: 25px;
+  padding-bottom: 80px;
+  /* font-weight: lighter; */
+}
+p {
+  /* float: right; */
+  font-size: 12px;
+  /* line-height: n; */
+  /* font-weight: lighter; */
+}
+h2 {
+  /* float: right; */
+  font-size: 20px;
+  text-decoration: underline;
+}
